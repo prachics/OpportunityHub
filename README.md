@@ -29,20 +29,20 @@
 ```bash
 git clone https://github.com/prachics/OpportunityHub.git
 cd OpportunityHub
-
+```
 ### **2️⃣Setup & Run Backend (FastAPI)**
-
+```bash
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
-
+```
 ### **3️⃣ Setup & Run Frontend (React)**
-
+```bash
 cd frontend
 npm install
 npm start
-
-📌 Planned Features (Phase 2)
+```
+## 📌 Planned Features (Phase 2)
 ✅ User Authentication (Login/Signup)
 ✅ Resume-Based Job Recommendations
 ✅ Automated Email Job Alerts
